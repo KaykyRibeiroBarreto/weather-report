@@ -1,8 +1,5 @@
 import { Stack } from 'expo-router'
 
-/* Cada arquivo na pasta app representa uma tela.
-Por exemplo, o arquivo app/index.tsx se torna a tela inicial.*/
-
 
 export default function RootLayout() {
   return (
