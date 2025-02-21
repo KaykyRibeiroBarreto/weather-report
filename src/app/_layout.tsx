@@ -5,16 +5,12 @@ export default function RootLayout() {
   return (
     <Stack>
         <Stack.Screen 
-        name="index" //Tela inicial (Home)
-        options={{ 
-            title: 'Clima Atual',
-            headerShown: false
-         }}
-        
+        name="(tabs)" 
+        options={{  headerShown: false }}
          />
 
         <Stack.Screen 
-         name="search" //Tela de busca
+         name="(modals)/search" 
          options={{
             presentation: 'modal',
             title: 'Buscar Cidade'
