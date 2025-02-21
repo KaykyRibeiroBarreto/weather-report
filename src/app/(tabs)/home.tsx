@@ -1,8 +1,8 @@
 import { useRouter, useLocalSearchParams  } from 'expo-router';
 import { useState, useEffect } from 'react';
-import { fetchWeather } from '../services/weather';
+import { fetchWeather } from '../../services/weather';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
-import { WeatherData } from '../types/weather';
+import { WeatherData } from '../../types/weather';
 import LoadingSpinner from '../components/LoadingSpinner';
 
 
